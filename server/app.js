@@ -5,9 +5,9 @@ import cookieParser from "cookie-parser";
 import path, { join } from "path";
 import { fileURLToPath } from "url";
 import routes from "./routes/index.js";
-import env2 from "env2";
+import dotenv from "dotenv";
 
-env2(".env");
+dotenv.config();
 
 const app = express();
 const { NODE_ENV } = process.env;
@@ -29,11 +29,9 @@ app.set("port", process.env.PORT || 8000);
 
 app.use("/api/v1/", routes);
 
-if (NODE_ENV === "production") {
-  app.use(express.static(join(__dirname, "..", "client", "build")));
-  app.get("*", (req, res) => {
-    res.sendFile(join(__dirname, "..", "client", "build", "index.html"));
-  });
-}
+app.use(express.static(join(__dirname, "..", "client", "dist")));
+app.get("*", (req, res) => {
+  res.sendFile(join(__dirname, "..", "client", "dist", "index.html"));
+});
 
-export default app;
+export default app; 

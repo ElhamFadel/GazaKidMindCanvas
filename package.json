@@ -1,14 +1,27 @@
 {
-  "name": "gazakidmindcanvas-root",
-  "version": "1.0.0",
+  "name": "gazakidmindcanvas-server",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "NODE_ENV=production node server/index.js",
-    "dev": "NODE_ENV=development nodemon server/index.js"
+    "setup": "npm install && cd client && npm install && echo \"✅ All dependencies installed successfully!\" && echo \"🚀 Run npm start to start the application\"",
+    "server": "node server/index.js",
+    "server:dev": "nodemon --ignore client/dist --ignore client/node_modules server/index.js",
+    "client:dev": "cd client && npm run dev",
+    "client:build": "cd client && npm run build",
+    "start": "npm run client:build && npm run server",
+    "start:dev": "concurrently \"npm run client:dev\" \"npm run server:dev\""
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.1",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10"
   }
 }
-
