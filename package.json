@@ -1,0 +1,39 @@
+{
+  "name": "gazakidmindcanvas-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && echo \"✅ All dependencies installed successfully!\" && echo \"🚀 Run npm start to start the application\"",
+    "server": "node server/index.js",
+    "server:dev": "nodemon --ignore client/dist --ignore client/node_modules server/index.js",
+    "client:dev": "vite",
+    "client:build": "vite build",
+    "start": "npm run client:build && npm run server",
+    "start:dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.34.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "nodemon": "^3.1.10",
+    "vite": "^7.1.4"
+  }
+}
