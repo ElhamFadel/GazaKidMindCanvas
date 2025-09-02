@@ -26,6 +26,5 @@ dist/
 # Ignore package-lock.json
 package-lock.json
 
-# Ignore client and server node_modules
-client/node_modules/
-server/node_modules/
+# Temporary files (e.g., Vite tmp)
+/tmp
