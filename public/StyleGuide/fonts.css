@@ -1,0 +1,292 @@
+
+@font-face {
+  font-family: IBMPlexSansArabic;
+  src: local(IBMPlexSansArabic-Medium),
+    url(/path/to/IBMPlexSansArabic-Medium.woff2) format("woff2"),
+    url(/path/to/IBMPlexSansArabic-Medium.woff) format("woff"),
+    url(/path/to/IBMPlexSansArabic-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: IBMPlexSansArabic;
+  src: local(IBMPlexSansArabic-SemiBold),
+    url(/path/to/IBMPlexSansArabic-SemiBold.woff2) format("woff2"),
+    url(/path/to/IBMPlexSansArabic-SemiBold.woff) format("woff"),
+    url(/path/to/IBMPlexSansArabic-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.Headers-WebsH1 {
+  font-family: IBMPlexSansArabic;
+  font-size: 64px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: -1.64px;
+}
+
+.Headers-WebsH2 {
+  font-family: IBMPlexSansArabic;
+  font-size: 56px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: -1.25px;
+}
+
+.Headers-WebsH3 {
+  font-family: IBMPlexSansArabic;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: -0.64px;
+}
+
+.Headers-WebsH4 {
+  font-family: IBMPlexSansArabic;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.23px;
+}
+
+.Texttxt-xlarge-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-xlarge-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+}
+
+.Headers-CoreH1 {
+  font-family: IBMPlexSansArabic;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+}
+
+.Texttxt-xlarge {
+  font-family: IBMPlexSansArabic;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-xlarge {
+  font-family: IBMPlexSansArabic;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+}
+
+.Texttxt-large-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-large-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+.Headers-CoreH2 {
+  font-family: IBMPlexSansArabic;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Texttxt-large {
+  font-family: IBMPlexSansArabic;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-large {
+  font-family: IBMPlexSansArabic;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+.Texttxt-medium-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-medium-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.Headers-CoreH3 {
+  font-family: IBMPlexSansArabic;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.Texttxt-medium {
+  font-family: IBMPlexSansArabic;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-medium {
+  font-family: IBMPlexSansArabic;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.Texttxt-small-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-small-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+}
+
+.Texttxt-small {
+  font-family: IBMPlexSansArabic;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-small {
+  font-family: IBMPlexSansArabic;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+}
+
+.Texttxt-xsmall-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-xsmall-plus {
+  font-family: IBMPlexSansArabic;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+}
+
+.Texttxt-xsmall {
+  font-family: IBMPlexSansArabic;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Text-Compacttxt-compact-xsmall {
+  font-family: IBMPlexSansArabic;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+}
